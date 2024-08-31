@@ -1,13 +1,13 @@
 <template>
-  <div :class="miniDrawer ? 'w-fit' : 'min-w-[15.5rem]'" class="border-r border-gray-200  ">
-    <div class="fixed flex gap-2 flex-col h-screen content-center px-4 ">
+  <div :class="miniDrawer ? 'min-w-[15.5rem] w-fit' : 'min-w-[15.5rem]'" class="border-r border-gray-200  ">
+    <div class="fixed flex gap-2 flex-col h-screen content-center px-4  min-w-[15.5rem]">
       <div class="h-11 mx-3  mt-8 mb-2">
         <img v-show="!miniDrawer" src="/logo_text.svg" class="h-11 w-[110px] lg:block hidden" />
-        <UIcon v-if="miniDrawer" name="i-ph-instagram-logo" class="w-7 h-7 " />
+        <UIcon v-if="miniDrawer" name="i-ph-instagram-logo" class="w-7 h-7 lg:hidden sm:block" />
       </div>
 
       <NuxtLink to="/" activeClass="font-bold" @click.prevent="miniDrawer = false"
-        class="flex gap-4 group hover:bg-gray-100 p-3  rounded-xl transition-color duration-500 ease-in-out">
+        class="flex  gap-4 group hover:bg-gray-100 p-3 w-full  rounded-xl transition-color duration-500 ease-in-out">
         <UIcon :name="$route.path === '/' ? 'i-ph-house-fill' : 'i-ph-house'" class="w-6 h-6 group-hover:scale-110" />
         <span v-show="!miniDrawer" class="transition-all duration-500 ease-in-out text-base ">Home</span>
       </NuxtLink>

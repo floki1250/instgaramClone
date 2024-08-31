@@ -25,15 +25,14 @@
         <img class="w-full rounded-md" src="https://via.placeholder.com/400x400" alt="Post Image">
 
         <!-- Post Actions -->
-        <div class="flex items-center py-2 space-x-4">
-            <button>
+        <div class="flex items-center py-2 space-x-4 ">
+            <button class="hover:text-gray-500">
                 <UIcon name="i-ph-heart" class="w-6 h-6" />
             </button>
-            <button>
+            <button class="hover:text-gray-500">
                 <UIcon name="i-ph-chat-circle" class="w-6 h-6" />
-
             </button>
-            <button>
+            <button class="hover:text-gray-500">
                 <UIcon name="i-ph-paper-plane-tilt" class="w-6 h-6" />
             </button>
         </div>
