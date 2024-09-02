@@ -5,6 +5,8 @@ export default defineNuxtConfig({
       title: "Instagram",
     },
   },
+
   devtools: { enabled: true },
   modules: ["@nuxt/ui"],
+  compatibilityDate: "2024-08-31",
 });
