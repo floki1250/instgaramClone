@@ -18,8 +18,7 @@
 # Instagram
  Clone - Nuxt 3 App
 
-This project is an Instagram clone built using [Nuxt 3](https://v3.nuxtjs.org/), a powerful framework based on Vue 3. The app features user authentication, photo uploads, real-time interactions (likes and comments), and responsive design.
-
+This project is an Instagram clone built using [Nuxt 3](https://v3.nuxtjs.org/), a powerful framework based on Vue 3. 
 ## Technologies Used
 
 - **Nuxt 3** - Framework based on Vue.js for SSR and static site generation
